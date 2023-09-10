@@ -25,6 +25,7 @@ export const Experience = () => {
   const forwardPressed = useKeyboardControls(
     (state) => state[Controls.forward]
   );
+  
 
   const handleMovement = () => {
     if (!isOnFloor.current) {
