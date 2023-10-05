@@ -25,7 +25,6 @@ export const Experience = () => {
     (state) => state[Controls.forward]
   );
   
-
   const handleMovement = () => {
     if (!isOnFloor.current) {
       return;
